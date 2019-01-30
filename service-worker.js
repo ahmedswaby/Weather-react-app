@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ahmedswaby/Weather-react-app/precache-manifest.342e307933ffee63fe7a7b0bf6bc1059.js"
+  "/weather-react-app/precache-manifest.aabcfb7afc09265686f46ed183de8823.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/ahmedswaby/Weather-react-app/index.html", {
+workbox.routing.registerNavigationRoute("/weather-react-app/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
